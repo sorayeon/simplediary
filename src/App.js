@@ -1,6 +1,6 @@
 import DiaryEditer from './DiaryEditer';
 import DiaryList from './DiaryList';
-import './App.css';
+import './App.scss';
 
 const dummyList = [
   {
