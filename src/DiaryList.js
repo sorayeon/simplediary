@@ -1,4 +1,4 @@
-import DiaryItem from "./DiaryItem";
+import DiaryItem from './DiaryItem';
 
 const DiaryList = ({ diaryList }) => {
   return (
@@ -11,10 +11,10 @@ const DiaryList = ({ diaryList }) => {
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
 DiaryList.defaultProps = {
-  diaryList: []
-}
+  diaryList: [],
+};
 export default DiaryList;
