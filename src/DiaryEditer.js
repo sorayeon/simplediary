@@ -74,4 +74,4 @@ const DiaryEditer = ({ onCreate }) => {
     </div>
   );
 };
-export default DiaryEditer;
+export default React.memo(DiaryEditer);
